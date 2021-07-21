@@ -6,8 +6,6 @@ import  static io.restassured.matcher.RestAssuredMatchers.*;
 import io.restassured.specification.*;
 import io.restassured.response.*;
 
-
-
 public class LearnTest {	
 	@Test
 	 public void GetWeatherDetails()
@@ -32,7 +30,10 @@ public class LearnTest {
 }
 	@Test 
 public void Test02(){
-		
+		given().get("https://demoqa.com/utilities/weather/city").
+		 then().
+		 statusCode(200).
+		 log().all();
 
 	
 }
