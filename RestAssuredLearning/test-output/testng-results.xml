@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3293" started-at="2021-07-17T13:55:37Z" finished-at="2021-07-17T13:55:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3293" started-at="2021-07-17T13:55:37Z" finished-at="2021-07-17T13:55:40Z">
+      <class name="TestRest.LearnTest">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:TestRest.LearnTest@30b7c004]" name="GetWeatherDetails" duration-ms="3273" started-at="2021-07-17T19:25:37Z" finished-at="2021-07-17T19:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetails -->
+      </class> <!-- TestRest.LearnTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
